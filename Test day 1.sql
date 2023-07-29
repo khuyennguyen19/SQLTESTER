@@ -4,7 +4,7 @@ exam_id int,
 foreign key (exam_id) references exam (exam_id),
 question_id int,
 foreign key (question_id) references question (question_id)
-)
+);
 CREATE TABLE `account` (
   `account_id` int NOT NULL AUTO_INCREMENT,
   `Email` varchar(100) DEFAULT NULL,
